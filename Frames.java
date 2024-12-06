@@ -24,7 +24,7 @@ public class Frames {
 				//Switch focus to alert			
 				Alert alert = cd.switchTo().alert();
 				String alertInput = "Test user";
-	            alert.sendKeys(alertInput);
+	                        alert.sendKeys(alertInput);
 				alert.accept();
 				
 								
